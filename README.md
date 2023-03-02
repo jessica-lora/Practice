@@ -21,7 +21,7 @@ To create and work in a feature branch:
 -add changes: `git add .`  
 -commit changes: `git commit -m"description"`  
 
-Once you complete your commits in the feature branch and are ready to move your feature to devlop: you want to update your local develop branch with any new stuff from the develop branch in the online repo (pull: online -> local)  
+Once you complete your commits in the feature branch and are ready to move your feature to develop: you want to update your local develop branch with any new stuff from the develop branch of the online repo (pull: online -> local)  
 
 -switch to develop branch: `git checkout develop`  
 -pull into develop branch: `git pull origin develop`   
