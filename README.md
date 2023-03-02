@@ -14,6 +14,8 @@ Afterwards everyone else can:
 
 -----
 
+*Assuming we have a main branch that we want to leave unchanged until production and want a development branch that we'll push our features branches into*    
+
 To create and work in a feature branch:  
 -be in develop branch: `git checkout develop`  
 -create feature branch: `git checkout -b feature_name`  
