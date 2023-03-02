@@ -24,9 +24,9 @@ To create and work in a feature branch:
 -create feature branch: `git checkout -b feature_name`  
 -create files and make changes to code  
 -add changes: `git add .`  
--commit changes: `git commit -m"description"`  
+-commit changes: `git commit -m "description"`  
 
-Once you complete your commits in the feature branch and are ready to move your feature to develop: you want to update your local develop branch with any new stuff from the develop branch of the online repo (pull: online -> local)  
+Once you complete your commits in the feature branch and are ready to move your feature to develop: you want to update your local develop branch with any new stuff from the develop branch of the remote repo (pull: remote -> local)  
 
 -switch to develop branch: `git checkout develop`  
 -pull into develop branch: `git pull origin develop`   
@@ -37,7 +37,7 @@ The next 4 commands will concisely add your feature to the develop branch:
 -`git checkout develop`  
 -`git rebase feature_name`  
 
-Update the develop branch online repo with your local develop branch repo updates (push: local -> online):  
+Update the develop branch remote repo with your local develop branch repo updates (push: local -> remote):  
 -`git push origin develop`  
 
 
@@ -47,4 +47,4 @@ Helpful commands
 
 -`git status` checks the status of files. if the files appear red, they have not beed 'added'; once you do `git add .` and check the status again, they'll appear green
 
--`git branch` will tell you which branch you are in
+-`git branch` will tell you which branch you are in and show you all the branches
