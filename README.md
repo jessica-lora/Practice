@@ -18,7 +18,7 @@ To create and work in a feature branch:
 -be in develop branch: `git checkout develop`
 -create feature branch: `git checkout -b feature_name`
 -create files and make changes to code
--add changes: `git add`
+-add changes: `git add .`
 -commit changes: `git commit -m"description"`
 
 Once you complete your commits in the feature branch and are ready to move your feature to devlop: you want to update your local develop branch with any new stuff from the develop branch in the online repo (pull: online -> local)
@@ -36,4 +36,10 @@ Update the develop branch online repo with your local develop branch repo update
 -`git push origin develop`
 
 
+------
 
+Helpful commands
+
+-`git status` checks the status of files. if the files appear red, they have not beed 'added'; once you do `git add .` and check the status again, they'll appear green
+
+-`git branch` will tell you which branch you are in
