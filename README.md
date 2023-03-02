@@ -4,7 +4,11 @@ To begin project, if we need to fork a repository:
 
 One person will need to:  
 -fork the original repo (username/password: git personal access token) *skip this step if we do not need to fork the repo*  
--clone the forked repo  
+-clone the forked repo:  
+&ensp;  -In GitHub repo, click on <> code button
+&ensp;  -copy the https text: `https://github.com/jessica-lora/Practice.git`
+&ensp;  -in local terminal: 
+
 -create a develop branch: `git checkout -b develop`  
 -push develop branch: `git push origin develop`  
 
